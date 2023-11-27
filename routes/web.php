@@ -40,6 +40,11 @@ Route::middleware('auth')->group(function () {
 // imran
 
 Route::get("/imran", function () {
+    return "imran";
+});
+
+
+Route::get("/malik", function () {
     return "malik";
 });
 
