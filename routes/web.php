@@ -43,4 +43,8 @@ Route::get("/imran", function () {
     return "malik";
 });
 
+Route::get("/tayyab", function () {
+    return "tayyab";
+});
+
 require __DIR__ . '/auth.php';
